@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+    line-height: 28px;
+}
+
+.content {
+    width: 100%;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+
+}
+
+/*Header start*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007765;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1110px;
+    height: 84px;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 28px;
+}
+
+.header_item {
+    margin-right: 8px;
+}
+
+.header_item:last-child {
+    margin-right: 0;
+}
+
+.header_list_link {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header_list_link:hover {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 500;
+    transition: font-size .1s linear;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header_list_stick {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.header_logo {
+    margin-top: 20px;
+}
+/*Header end*/
+
+
+
+/*Preview start*/
+.preview {
+    background: url("bg_preview.png") no-repeat center;
+    background-size: cover;
+    margin-top: 84px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.massage_preview {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/*Preview end*/
+
+
+
+/*Problem start*/
+.the_problem {
+    background: #EEEEEE;
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+
+.massage_problem_title {
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    padding-bottom: 16px;
+    margin-top: 48px;
+}
+
+.massage_problem {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+}
+/*Problem end*/
+
+
+
+/*Hero start*/
+.hero {
+    background: url("bg_hero.png");
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.massage_hero {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.content_hero {
+    width: 100%;
+    max-width: 893px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    text-align: center;
+}
+/*hero end*/
+
+
+
+/* PPC start */
+.ppc {
+    background: #FFFFFF;
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+
+.ppc_logo_picture {
+    float: left;
+    padding-right: 48px;
+}
+
+.introducing_piedPiperCoin {
+    margin-top: 48px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+.content_ppc {
+    padding-top: 16px;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+/* PPC end */
+
+
+
+/* Team start */
+.the_team{
+    background: #EEEEEE;
+    padding-top: 58px;
+    padding-bottom: 112px;
+}
+
+.the_team_h2 {
+    margin-top: 58px;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+.containers_sr1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+
+.containers_sr2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+
+.container {
+    text-align: center;
+    flex-basis: 33%;
+}
+
+.team_name {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+
+.team_role {
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-align: center;
+}
+/* Team end */
+
+
+
+/* Footer start */
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #333;
+    text-align: center;
+}
+
+.footer_text {
+    width: 540px;
+    height: 64px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+}
+/* Footer end */
